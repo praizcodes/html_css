@@ -1,0 +1,17 @@
+h1{
+    color:green;
+    text-decoration: underline;
+}
+p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif ;
+}
+div p{
+ color:blue;
+}
+div > p{
+  color:red;
+}
+p+p{
+  color:green;
+}
