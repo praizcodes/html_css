@@ -1,0 +1,27 @@
+h1{
+  color:#fff;
+  text-align: center;
+}
+section{
+  text-align:center;
+  color:#fff;
+}
+.bgcolor{
+  height: 100px;
+  background-color: red;
+}
+.bgimage{
+  height: 100px;
+  background-image: url("./bg.jpg");
+}
+.gradientbackground{
+  height: 100px;
+  background-image: linear-gradient(40deg,red 40%, green 70%, blue 30%);
+}
+.fixedbackground{
+  height: 500px;
+  background-image: url("./code.png");
+  background-attachment: fixed;
+  background-size: cover /*contain*/ /*100px 100px*/;
+ 
+}
